@@ -129,7 +129,7 @@ header.header {
 }
 
 header.header_bottom {
-    position: relative;
+    // position: relative;
     background-color: #ECFFEB;
     font-family: $fontMont;
 
@@ -137,53 +137,92 @@ header.header_bottom {
         max-width: rem(1230);
         padding: 0 rem(15) 0 rem(15);
         margin: 0 auto;
-        display: flex;
-        align-items: center;
+        
 
-        .header_bottom_left {
+        .header_bottom_top {
+            position: relative;
+            display: flex;
+
+            .header_bottom_left {
+                padding-top: rem(71);
+                    &>p:nth-of-type(1) {
+                        font-weight: 600;
+                        font-size: rem(20);
+                        line-height: rem(26);
+                        color: $colorBlack;
+                    }
             
-            &>p:nth-of-type(1) {
-                font-weight: 600;
-                font-size: rem(20);
-                line-height: rem(26);
-                color:$colorBlack;
-            }
-            &>h2 {
-                font-weight: 700;
-                font-size: rem(65);
-                line-height: rem(65);
-                color: $colorGreen;
-            }
-            &>p:nth-of-type(2) {
-                font-weight: 500;
-                font-size: rem(20);
-                line-height: rem(23);
-                color: $colorBlack;
-            }
-            .header_bottom_left_button {
-                position: absolute;
-                display: flex;
-                align-items: center;
-                column-gap: rem(20);
-                button:first-of-type {
-                    display: inline-block;
-                    padding: rem(20) rem(41);
-                    background-color: $colorGreen;
-                    color: $colorWhite;
-                    font-weight: 600;
-                    font-size: 18px;
-                    line-height: 26px;
-                    border: 1px solid $colorGreen;
+                    &>h2 {
+                        font-weight: 700;
+                        font-size: rem(65);
+                        line-height: rem(65);
+                        color: $colorGreen;
+                        padding-bottom: rem(20);
+                    }
+            
+                    &>p:nth-of-type(2) {
+                        font-weight: 500;
+                        font-size: rem(20);
+                        line-height: rem(23);
+                        color: $colorBlack;
+                        padding-bottom: rem(57);
+                    }
+            
+                    .header_bottom_left_button {
+                        position: absolute;
+                        display: flex;
+                        align-items: center;
+                        column-gap: rem(20);
+            
+                        button:first-of-type {
+                            display: inline-block;
+                            padding: rem(20) rem(40) rem(18) rem(41);
+                            background-color: $colorGreen;
+                            color: $colorWhite;
+                            font-weight: 600;
+                            font-size: 18px;
+                            line-height: 26px;
+                            border: 1px solid $colorGreen;
+                        }
+            
+                        button:last-of-type {
+                            display: inline-block;
+                            padding: rem(19) rem(58);
+                            background-color: transparent;
+                            color: $colorGreen;
+                            font-weight: 600;
+                            font-size: 18px;
+                            line-height: 26px;
+                            border: 1px solid $colorGreen;
+                        }
+                    }
                 }
-                button:last-of-type {
-                    display: inline-block;
-                    padding: rem(20) rem(58);
-                    background-color: transparent;
-                    color: $colorGreen;
-                    font-weight: 600;
-                    font-size: 18px;
-                    line-height: 26px;
-                    border: 1px solid $colorGreen;
+                .header_bottom_right {
+                    max-width: rem(681);
+                    &>img {
+                        object-fit: cover;
+                    }
+                }
+        }
+        .header_bottom_bottom {
+            .header_bottom_bottom_block {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                background-color: $colorWhite;
+                box-shadow: -2px 2px 20px rgba(66, 66, 66, 0.15);
+                border-radius: 4px;
+                .header_bottom_bottom_block_card {
+                    &>h2 {
+                        font-weight: 700;
+                        font-size: rem(45);
+                        line-height: rem(45);
+                        color: $colorGreen;
+                    }
+                    &>p {
+                        font-weight: 400;
+                        font-size: rem(23);
+                        line-height: rem(28);
+                    }
                 }
             }
         }
