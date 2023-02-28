@@ -778,4 +778,234 @@ main.main {
             }
         }
     }
+    .main_container {
+        .main_why_we {
+            padding-bottom: rem(175);
+            & > h2 {
+                font-weight: 600;
+                font-size: rem(35);
+                line-height: rem(28);
+                text-align: center;
+                color: $colorBlack;
+                padding-bottom: rem(75);
+            }
+            .main_why_we_cont {
+                display: flex;
+                justify-content: space-between;
+                // column-gap: rem(29.07);
+                .main_why_we_cont_block {
+                    width: calc(100% / 3 - 1.03125rem);
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: rem(33);
+                    background-color: $colorWhite;
+                    padding: rem(40) rem(15.41) rem(32) rem(30.63);
+                    box-shadow: 0px 2px 20px rgba(66, 66, 66, 0.15);
+                    & > h2 {
+                        font-weight: 600;
+                        font-size: rem(25);
+                        line-height: rem(26);
+                        color: $colorBlack;
+                    }
+                    & > span:first-of-type {
+                        font-size: rem(20);
+                        line-height: rem(23);
+                        color: #1c1e23;
+                        opacity: 0.8;
+                    }
+                    & > span:last-of-type {
+                        position: absolute;
+                        font-weight: 500;
+                        font-size: rem(180);
+                        // line-height: rem(36);
+                        color: rgba(85, 166, 48, 0.25);
+                        bottom: 0;
+                        right: 0;
+                    }
+                }
+                .main_why_we_cont_block:hover {
+                    background-color: #b7ecb1;
+                    & > span:last-of-type {
+                        color: rgba(255, 255, 255, 0.3);
+                    }
+                }
+                .main_why_we_cont_block._two {
+                    & > span {
+                        top: 0;
+                    }
+                }
+            }
+        }
+    }
+    .main_slider_action {
+        position: relative;
+        padding-bottom: rem(175);
+        .main_container {
+            .main_slider_arrow {
+                & > img:first-of-type {
+                    position: absolute;
+                    left: -1%;
+                    top: 40%;
+                    cursor: pointer;
+                }
+                & > img:last-of-type {
+                    position: absolute;
+                    right: -1%;
+                    top: 40%;
+                    cursor: pointer;
+                }
+            }
+            & > h2 {
+                font-weight: 600;
+                font-size: rem(35);
+                line-height: rem(28);
+                text-align: center;
+                color: $colorBlack;
+                padding-bottom: rem(75);
+            }
+            .main_slider_blocks {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: rem(75);
+                & > .main_slider_blocks_card {
+                    width: calc(100% / 3 - 0.9375rem);
+                    height: 57vh;
+                    background-repeat: no-repeat;
+                }
+                .main_slider_blocks_card:nth-of-type(1) {
+                    background-image: url("../image/main/slider_promotion/promotionOneA.jpg");
+                    padding: 30px 15px 0 15px;
+                    color: #062661;
+                    padding: rem(50) rem(15) 0 rem(15);
+                    & > h2 {
+                        font-size: rem(50);
+                        font-weight: 700;
+                        text-align: center;
+                        text-transform: uppercase;
+                        padding-bottom: rem(40);
+                    }
+                    & > div {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        & > div {
+                            & > h2 {
+                                font-size: rem(35);
+                                font-weight: 800;
+                                text-align: center;
+                                padding-bottom: rem(3);
+                            }
+                            & > span {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+                .main_slider_blocks_card:nth-of-type(2) {
+                    background-image: url("../image/main/slider_promotion/promotionTwoA.jpg");
+                    padding: rem(50) rem(20);
+                    & > h2 {
+                        font-size: rem(50);
+                        font-weight: 700;
+                        text-align: center;
+                        text-transform: uppercase;
+                        padding-bottom: rem(40);
+                    }
+                    & > p {
+                        font-size: rem(18);
+                        padding-bottom: rem(15);
+                        & > span {
+                            font-size: rem(35);
+                            font-weight: 800;
+                            padding-bottom: rem(3);
+                        }
+                    }
+                    & > span {
+                        font-size: rem(12);
+                    }
+                }
+                .main_slider_blocks_card:nth-of-type(3) {
+                    background-image: url("../image/main/slider_promotion/promotionThreeA.jpg");
+                    text-align: center;
+                    padding: rem(50) rem(20);
+                    & > h2 {
+                        font-size: rem(50);
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        padding-bottom: rem(15);
+                    }
+                    & > span:first-of-type {
+                        display: block;
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        padding-bottom: rem(15);
+                    }
+                    & > span:last-of-type {
+                        display: block;
+                        font-size: rem(35);
+                        font-weight: 800;
+                    }
+                }
+            }
+        }
+        .main_slider_dots {
+            max-width: rem(139);
+            margin: 0 auto;
+        }
+    }
+    .main_request_call_back {
+        background: $colorWhite;
+        box-shadow: 0px 2px 20px rgba(66, 66, 66, 0.15);
+        text-align: center;
+        padding-top: rem(75);
+        padding-bottom: rem(74);
+        & > h2 {
+            font-weight: 600;
+            font-size: rem(30);
+            line-height: rem(28);
+            color: #55a630;
+            padding-bottom: rem(20);
+        }
+        & > span {
+            display: block;
+            font-weight: 500;
+            font-size: rem(16);
+            line-height: rem(26);
+            text-align: center;
+            color: #424242;
+            padding-bottom: rem(60);
+        }
+        form {
+            max-width: rem(428);
+            display: flex;
+            flex-direction: column;
+            row-gap: rem(15);
+            margin: 0 auto;
+            input {
+                width: 100%;
+                border: 1px solid $colorGreen;
+                font-size: 14px;
+                line-height: 13px;
+                color: #9c9c9c;
+                padding: rem(22) 0 rem(21) rem(24);
+            }
+            input[type="text"] {
+                width: 100%;
+                border: 1px solid $colorGreen;
+            }
+            input[type="submit"] {
+                background-color: $colorGreen;
+                font-weight: 600;
+                font-size: rem(23);
+                line-height: rem(16);
+                color: $colorWhite;
+            }
+            input[type="submit"]:hover {
+                background-color: #45a049;
+                
+            }
+        }
+    }
 }
