@@ -12,3 +12,17 @@ if (iconMenu) {
         document.body.classList.toggle('lock');
     });
 }
+
+new Swiper('.header_bottom_slider' ,{
+    slidesPerView: 3,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    },
+    
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+});

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cosmetology</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -92,14 +93,16 @@
                 </div>
             </div>
         </div>
-        <div class="header_bottom_slider">
+        <div class="header_bottom_slider swiper">
             <div class="header_bottom_slider_arrow">
-                <img src="image/header_bottom/arrowL.svg" alt="arrowL">
-                <img src="image/header_bottom/arrowR.svg" alt="arrowR">
+                <!-- <img src="image/header_bottom/arrowL.svg" alt="arrowL">
+                <img src="image/header_bottom/arrowR.svg" alt="arrowR"> -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
             <h2>Курсы обучения</h2>
-            <div class="header_bottom_slider_body">
-                <div class="header_bottom_slider_body_block">
+            <div class="header_bottom_slider_body swiper-wrapper">
+                <div class="header_bottom_slider_body_block swiper-slide">
                     <div class="header_bottom_slider_body_block_cont">
                         <div class="header_bottom_slider_body_block_top">
                             <span>Курс для медиков</span>
@@ -122,7 +125,7 @@
                         <a>Подробнее</a>
                     </div>
                 </div>
-                <div class="header_bottom_slider_body_block _two">
+                <div class="header_bottom_slider_body_block _two swiper-slide">
                     <div class="header_bottom_slider_body_block_cont">
                         <div class="header_bottom_slider_body_block_top">
                             <span>Курс для медиков</span>
@@ -145,7 +148,76 @@
                         <a>Подробнее</a>
                     </div>
                 </div>
-                <div class="header_bottom_slider_body_block _three">
+                <div class="header_bottom_slider_body_block _three swiper-slide">
+                    <div class="header_bottom_slider_body_block_cont">
+                        <div class="header_bottom_slider_body_block_top">
+                            <span>Курс для медиков</span>
+                            <img src="image/header_bottom/birds.svg" alt="birds">
+                        </div>
+                        <h2>Биогель - новое в косметологии</h2>
+                        <button>Мастер класс</button>
+                        <span>2 - 5 августа</span>
+                        <div class="header_bottom_slider_body_block_content">
+                            <span class="max_width">Краткое описание Что-то о курсе
+                                Пару фактов
+                                Краткое описание
+                            </span>
+                            <img src="image/header_bottom/headFront.png" alt="bald head">
+                        </div>
+                        <span>Свободно 2 из 15 мест</span>
+                    </div>
+                    <div class="header_bottom_slider_body_block_regist">
+                        <button>Зарегистрироваться</button>
+                        <a>Подробнее</a>
+                    </div>
+                </div>
+                <div class="header_bottom_slider_body_block swiper-slide">
+                    <div class="header_bottom_slider_body_block_cont">
+                        <div class="header_bottom_slider_body_block_top">
+                            <span>Курс для медиков</span>
+                            <img src="image/header_bottom/birds.svg" alt="birds">
+                        </div>
+                        <h2>Канюльные техники</h2>
+                        <button>Оффлайн</button>
+                        <span>1 - 4 мая</span>
+                        <div class="header_bottom_slider_body_block_content">
+                            <span>Краткое описание Что-то о курсе
+                                Пару фактов
+                                Краткое описание
+                            </span>
+                            <img src="image/header_bottom/head.png" alt="bald head">
+                        </div>
+                        <span>Свободно 2 из 15 мест</span>
+                    </div>
+                    <div class="header_bottom_slider_body_block_regist">
+                        <button>Зарегистрироваться</button>
+                        <a>Подробнее</a>
+                    </div>
+                </div>
+                <div class="header_bottom_slider_body_block _two swiper-slide">
+                    <div class="header_bottom_slider_body_block_cont">
+                        <div class="header_bottom_slider_body_block_top">
+                            <span>Курс для медиков</span>
+                            <img src="image/header_bottom/birds.svg" alt="birds">
+                        </div>
+                        <h2>Мезотерапия биоревителизация</h2>
+                        <button>Онлайн</button>
+                        <span>15 - 20 мая</span>
+                        <div class="header_bottom_slider_body_block_content">
+                            <span>Краткое описание Что-то о курсе
+                                Пару фактов
+                                Краткое описание
+                            </span>
+                            <img src="image/header_bottom/head.png" alt="bald head">
+                        </div>
+                        <span>Свободно 2 из 15 мест</span>
+                    </div>
+                    <div class="header_bottom_slider_body_block_regist">
+                        <button>Зарегистрироваться</button>
+                        <a>Подробнее</a>
+                    </div>
+                </div>
+                <div class="header_bottom_slider_body_block _three swiper-slide">
                     <div class="header_bottom_slider_body_block_cont">
                         <div class="header_bottom_slider_body_block_top">
                             <span>Курс для медиков</span>
@@ -169,17 +241,18 @@
                     </div>
                 </div>
             </div>
-            <div class="header_bottom_slider_body_dots">
-                <img src="image/header_bottom/dots.svg" alt="dots">
-            </div>
+            <div class="header_bottom_slider_body_dots swiper-pagination"></div>
         </div>
     </header>
     <main class="main">
         <div class="main_container">
             <section class="main_about_our">
-                <div class="main_about_our_left">
-                    <img src="image/main/about_our/oper.jpg" alt="operation">
-                </div>
+                <picture class="main_about_our_left">
+                    <!-- <source srcset="image/main/about_our/oper.jpg" media="(min-width: 481px)"> -->
+                    <source srcset="image/media480/about_our/oper.jpg" media="(max-width: 480px)">
+                    <img srcset="image/main/about_our/oper.jpg" alt="operation">
+                </picture>
+                <a class="detailed_second" href="#">Подробнее<img src="image/main/about_our/arrowLink.svg" alt="arrowLLink"></a>
                 <div class="main_about_right">
                     <span>О нас</span>
                     <h2><span>valmari</span><br>ведущий учебный центр эстетической косметологии</h2>
@@ -430,6 +503,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
