@@ -451,6 +451,9 @@ main.main {
             .main_about_our_left {
                 max-width: rem(590);
             }
+            .detailed_second {
+                display: none;
+            }
             .main_about_right {
                 max-width: rem(452);
                 & > span {

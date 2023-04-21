@@ -391,6 +391,8 @@ main.main {
               column-gap: 7.5625rem; }
       main.main .main_container .main_about_our .main_about_our_left {
         max-width: 36.875rem; }
+      main.main .main_container .main_about_our .detailed_second {
+        display: none; }
       main.main .main_container .main_about_our .main_about_right {
         max-width: 28.25rem; }
         main.main .main_container .main_about_our .main_about_right > span {
