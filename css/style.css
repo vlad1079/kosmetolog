@@ -2722,28 +2722,33 @@ main.main {
             margin-left: 0.875rem;
             max-width: 2.1875rem; }
     main.main .main_container .main_training_cosm {
-      padding-bottom: 6.25rem; }
+      padding-bottom: 5rem; }
       main.main .main_container .main_training_cosm > h2 {
-        font-size: 1.5625rem;
-        padding-bottom: 3.125rem; }
+        font-size: 1.25rem;
+        line-height: 1.1875rem;
+        padding-bottom: 2.5rem; }
       main.main .main_container .main_training_cosm .main_training_cosm_block {
         gap: 1.3125rem 1.3125rem; }
         main.main .main_container .main_training_cosm .main_training_cosm_block h2 {
-          font-size: 1.25rem;
+          font-size: 1rem;
+          line-height: 1.5625rem;
           line-height: 1.5625rem; }
         main.main .main_container .main_training_cosm .main_training_cosm_block > a:nth-of-type(1) {
           padding: 2.1875rem 0 1.3125rem 0;
-          max-width: 19.5rem;
-          max-height: 9.25rem;
+          max-width: 22.5rem;
+          max-height: 9.1875rem;
           -webkit-box-flex: 1;
               -ms-flex: 1;
                   flex: 1; }
           main.main .main_container .main_training_cosm .main_training_cosm_block > a:nth-of-type(1) > div:nth-of-type(1) {
-            display: table; }
+            display: table;
+            height: 100%; }
             main.main .main_container .main_training_cosm .main_training_cosm_block > a:nth-of-type(1) > div:nth-of-type(1) > h2 {
+              display: table-cell;
               padding-left: 20px;
-              font-size: 1.25rem;
-              line-height: 25px; }
+              font-size: 1rem;
+              line-height: 25px;
+              vertical-align: bottom; }
             main.main .main_container .main_training_cosm .main_training_cosm_block > a:nth-of-type(1) > div:nth-of-type(1) > img {
               display: none; }
           main.main .main_container .main_training_cosm .main_training_cosm_block > a:nth-of-type(1) > div:nth-of-type(2) {
@@ -2752,12 +2757,12 @@ main.main {
           -webkit-box-flex: 1;
               -ms-flex: 1 1 auto;
                   flex: 1 1 auto;
-          max-width: 19.375rem;
-          max-height: 9.25rem; }
+          max-width: 22.5rem;
+          max-height: 9.1875rem; }
           main.main .main_container .main_training_cosm .main_training_cosm_block > a:nth-of-type(2) > h2 {
             padding-left: 0.9375rem;
             padding-bottom: 1.3125rem;
-            font-size: 1.25rem;
+            font-size: 1rem;
             line-height: 25px; }
         main.main .main_container .main_training_cosm .main_training_cosm_block > a:nth-of-type(3) {
           padding-left: 0.9375rem;
@@ -2765,45 +2770,57 @@ main.main {
           -webkit-box-flex: 1;
               -ms-flex: 1;
                   flex: 1;
-          max-width: 12.5625rem;
+          max-width: 10.8125rem;
           max-height: 9.1875rem; }
           main.main .main_container .main_training_cosm .main_training_cosm_block > a:nth-of-type(3) > h2 {
-            font-size: 1.25rem;
+            font-size: 1rem;
             line-height: 2.375rem; }
         main.main .main_container .main_training_cosm .main_training_cosm_block > a:nth-of-type(4) {
-          max-width: 12.5625rem;
+          max-width: 10.25rem;
           max-height: 9.1875rem; }
           main.main .main_container .main_training_cosm .main_training_cosm_block > a:nth-of-type(4) > h2 {
             padding-left: 0.9375rem;
             padding-bottom: 1.3125rem;
-            font-size: 1.25rem;
-            line-height: 2.375rem; }
+            font-size: 1rem;
+            line-height: 2.375rem;
+            vertical-align: bottom; }
         main.main .main_container .main_training_cosm .main_training_cosm_block > a:nth-of-type(5) {
-          max-width: 12.5625rem;
+          max-width: 22.5rem;
           max-height: 9.1875rem; }
           main.main .main_container .main_training_cosm .main_training_cosm_block > a:nth-of-type(5) > h2 {
             padding-left: 0.9375rem;
             padding-bottom: 1.3125rem;
-            font-size: 1.25rem;
+            font-size: 1rem;
             line-height: 2.375rem; }
     main.main .main_container .main_become_model {
-      padding-bottom: 6.25rem; }
+      padding-bottom: 5rem;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
       main.main .main_container .main_become_model .main_become_model_left {
-        -ms-flex-pack: distribute;
-            justify-content: space-around; }
+        -webkit-box-pack: unset;
+            -ms-flex-pack: unset;
+                justify-content: unset; }
         main.main .main_container .main_become_model .main_become_model_left > h2 {
-          font-size: 1.5rem; }
+          font-size: 1.25rem;
+          line-height: 7.1875rem;
+          padding-bottom: 2.5rem; }
         main.main .main_container .main_become_model .main_become_model_left > p {
           font-size: 0.9375rem;
-          line-height: 1.25rem; }
+          line-height: 1.25rem;
+          padding-bottom: 2.5rem; }
         main.main .main_container .main_become_model .main_become_model_left > a {
           font-size: 0.9375rem;
+          line-height: 0.875rem;
           color: #fff;
-          padding: 0.625rem 2.1875rem; }
+          padding: 0.8125rem 2.75rem;
+          margin: 0 auto; }
       main.main .main_container .main_become_model .main_become_model_right {
-        max-width: 29rem; }
+        max-width: 29rem;
+        padding-top: 1.5rem; }
         main.main .main_container .main_become_model .main_become_model_right > img {
-          max-width: 17.25rem; }
+          max-width: 22.5rem; }
   main.main .main_slider_master_class {
     padding-bottom: 5rem; }
     main.main .main_slider_master_class a {

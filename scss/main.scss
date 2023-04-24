@@ -3580,33 +3580,36 @@ main.main {
             }
         }
         .main_training_cosm {
-            padding-bottom: rem(100);
+            padding-bottom: rem(80);
             & > h2 {
-                font-size: rem(25);
-                padding-bottom: rem(50);
+                font-size: rem(20);
+                line-height: rem(19);
+                padding-bottom: rem(40);
             }
             .main_training_cosm_block {
                 gap: rem(21) rem(21);
                 & h2 {
-                    font-size: rem(20);
+                    font-size: rem(16);
+                    line-height: rem(25);
                     line-height: rem(25);
                 }
                 & > a:nth-of-type(1) {
                     padding: rem(35) 0 rem(21) 0;
-                    max-width: rem(312);
-                    max-height: rem(148);
+                    max-width: rem(360);
+                    max-height: rem(147);
                     // margin-right: auto;
                     flex: 1;
                     // justify-content: end;
                     & > div:nth-of-type(1) {
                         display: table;
+                        height: 100%;
 
                         & > h2 {
-                            // display: table-cell;
+                            display: table-cell;
                             padding-left: 20px;
-                            font-size: rem(20);
+                            font-size: rem(16);
                             line-height: 25px;
-                            // width: 50%;
+                            vertical-align: bottom;
                         }
                         & > img {
                             display: none;
@@ -3620,8 +3623,8 @@ main.main {
                     // background-image: url("../image/main/training_cosm_block/online_training.jpg");
                     flex: 1 1 auto;
                     // margin-left: auto;
-                    max-width: rem(310);
-                    max-height: rem(148);
+                    max-width: rem(360);
+                    max-height: rem(147);
                     & > h2 {
                         // display: table-cell;
                         padding-left: rem(15);
@@ -3629,7 +3632,7 @@ main.main {
                         // margin-bottom: auto;
                         // text-align: left;
                         // vertical-align: bottom;
-                        font-size: rem(20);
+                        font-size: rem(16);
                         line-height: 25px;
                     }
                 }
@@ -3639,33 +3642,34 @@ main.main {
                     padding-bottom: rem(21);
                     flex: 1;
                     // margin-right: auto;
-                    max-width: rem(201);
+                    max-width: rem(173);
                     max-height: rem(147);
                     & > h2 {
                         // display: table-cell;
                         // vertical-align: bottom;
                         // text-align: center;
-                        font-size: rem(20);
+                        font-size: rem(16);
                         line-height: rem(38);
                     }
                 }
                 & > a:nth-of-type(4) {
                     // background-image: url("../image/main/training_cosm_block/time_table.jpg");
-                    max-width: rem(201);
+                    max-width: rem(164);
                     max-height: rem(147);
                     & > h2 {
                         // display: table-cell;
                         padding-left: rem(15);
                         padding-bottom: rem(21);
                         // text-align: left;
-                        font-size: rem(20);
+                        font-size: rem(16);
                         line-height: rem(38);
+                        vertical-align: bottom;
                     }
                 }
                 & > a:nth-of-type(5) {
                     // background-image: url("../image/main/training_cosm_block/stock.jpg");
                     // margin-left: auto;
-                    max-width: rem(201);
+                    max-width: rem(360);
                     max-height: rem(147);
                     & > h2 {
                         // display: table-cell;
@@ -3673,33 +3677,40 @@ main.main {
                         padding-left: rem(15);
                         padding-bottom: rem(21);
                         // text-align: left;
-                        font-size: rem(20);
+                        font-size: rem(16);
                         line-height: rem(38);
                     }
                 }
             }
         }
         .main_become_model {
-            padding-bottom: rem(100);
+            padding-bottom: rem(80);
+            flex-direction: column;
             .main_become_model_left {
-                justify-content: space-around;
+                justify-content: unset;
                 & > h2 {
-                    font-size: rem(24);
+                    font-size: rem(20);
+                    line-height: rem(115%);
+                    padding-bottom: rem(40);
                 }
                 & > p {
                     font-size: rem(15);
                     line-height: rem(20);
+                    padding-bottom: rem(40);
                 }
                 & > a {
                     font-size: rem(15);
+                    line-height: rem(14);
                     color: $colorWhite;
-                    padding: rem(10) rem(35);
+                    padding: rem(13) rem(44);
+                    margin: 0 auto;
                 }
             }
             .main_become_model_right {
                 max-width: rem(464);
+                padding-top: rem(24);
                 & > img {
-                    max-width: rem(276);
+                    max-width: rem(360);
                 }
             }
         }
