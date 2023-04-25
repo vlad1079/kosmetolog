@@ -14,8 +14,8 @@ if (iconMenu) {
 }
 
 new Swiper('.header_bottom_slider' ,{
-    slidesPerView: 3,
-    spaceBetween: 30,
+    slidesPerView: 2,
+    spaceBetween: 19,
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev'
