@@ -3080,7 +3080,7 @@ main.main {
         }
 
         .header_container_top {
-            max-width: rem(445);
+            max-width: rem(480);
             width: 100%;
             display: flex;
             justify-content: center;
@@ -3274,7 +3274,7 @@ main.main {
                             padding: rem(1) rem(28) rem(1) rem(28);
                         }
                         & > button:last-of-type {
-                            z-index: 1;
+                            z-index: 0;
                             padding: rem(1) rem(30);
                             font-size: rem(8);
                             line-height: rem(26);
@@ -3511,6 +3511,9 @@ main.main {
                 max-width: rem(70);
             }
         }
+    }
+    .swiper , .swiper-container {
+        z-index: 0;
     }
 }
 

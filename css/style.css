@@ -2368,7 +2368,7 @@ main.main {
     header.header a {
       text-decoration: none; }
     header.header .header_container_top {
-      max-width: 27.8125rem;
+      max-width: 30rem;
       width: 100%;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2544,7 +2544,7 @@ main.main {
               line-height: 1.625rem;
               padding: 0.0625rem 1.75rem 0.0625rem 1.75rem; }
             header.header_bottom .header_container_bottom .header_bottom_top .header_bottom_left .header_bottom_left_button > button:last-of-type {
-              z-index: 1;
+              z-index: 0;
               padding: 0.0625rem 1.875rem;
               font-size: 0.5rem;
               line-height: 1.625rem; }
@@ -2660,6 +2660,8 @@ main.main {
         max-width: 4.375rem; }
         header.header_bottom .header_bottom_slider .header_bottom_slider_body_dots > img {
           max-width: 4.375rem; }
+    header.header_bottom .swiper, header.header_bottom .swiper-container {
+      z-index: 0; }
 
   main.main .main_container {
     max-width: 22.5rem; }
