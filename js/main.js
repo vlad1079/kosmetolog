@@ -26,3 +26,17 @@ new Swiper('.header_bottom_slider' ,{
         clickable: true,
     },
 });
+
+const popupLinks = document.querySelectorAll('.popup-link');
+const body = document.querySelector('body');
+const lockPadding = document.querySelectorAll('.lock-padding');
+
+const lock = true;
+const timeOut = 800;
+
+if (popupLinks.length > 0) {
+    for (let index = 0; index < popupLinks.length; index++) {
+        const popupLink = popupLinks[index];
+        
+    }
+}

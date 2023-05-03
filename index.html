@@ -64,8 +64,8 @@
                         интересующихся этой профессией
                     </p>
                     <div class="header_bottom_left_button">
-                        <button>Зарегистрироваться</button>
-                        <button>Узнать подробнее</button>
+                        <a href="#popup">Зарегистрироваться</a>
+                        <a>Узнать подробнее</a>
                     </div>
                 </div>
                 <div class="header_bottom_right">
@@ -252,7 +252,8 @@
                     <source srcset="image/media480/about_our/oper.jpg" media="(max-width: 480px)">
                     <img srcset="image/main/about_our/oper.jpg" alt="operation">
                 </picture>
-                <a class="detailed_second" href="#">Подробнее<img src="image/main/about_our/arrowLink.svg" alt="arrowLLink"></a>
+                <a class="detailed_second" href="#">Подробнее<img src="image/main/about_our/arrowLink.svg"
+                        alt="arrowLLink"></a>
                 <div class="main_about_right">
                     <span>О нас</span>
                     <h2><span>valmari</span><br>ведущий учебный центр эстетической косметологии</h2>
@@ -504,6 +505,20 @@
             </div>
         </div>
     </footer>
+    <div id="popup" class="popup">
+        <div class="popup_body">
+            <div class="popup_content">
+                <a href="#header" class="popup_close">
+                    <img src="image/popup/popup.svg" alt="popup">
+                </a>
+                <h2 class="popup_title">Оставить заявку</h2>
+                <input type="text" name="text" placeholder="Ваше имя">
+                <input type="tel" name="tel" placeholder="Ваш номер телефона">
+                <textarea placeholder="Комментарий"></textarea>
+                <button>Отправить заявку</button>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
