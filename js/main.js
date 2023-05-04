@@ -31,7 +31,7 @@ const popupLinks = document.querySelectorAll('.popup-link');
 const body = document.querySelector('body');
 const lockPadding = document.querySelectorAll('.lock-padding');
 
-const unlock = true;
+let unlock = true;
 const timeOut = 800;
 
 if (popupLinks.length > 0) {
