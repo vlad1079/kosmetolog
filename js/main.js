@@ -78,7 +78,7 @@ function popupClose(popupActive, doUnlock = true) {
     if (unlock) {
         popupActive.classList.remove('open');
         if (doUnlock) {
-            bodyUnlock();
+            bodyUnLock();
         }
     }
 }
