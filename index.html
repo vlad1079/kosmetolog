@@ -251,7 +251,7 @@
                     <!-- <source srcset="image/main/about_our/oper.jpg" media="(min-width: 481px)"> -->
                     <source srcset="image/media320/oper3.jpg" media="(max-width: 320px)">
                     <source srcset="image/media480/about_our/oper.jpg" media="(max-width: 480px)">
-                    
+
                     <img srcset="image/main/about_our/oper.jpg" alt="operation">
                 </picture>
                 <a class="detailed_second" href="#">Подробнее<img src="image/main/about_our/arrowLink.svg"
@@ -424,12 +424,12 @@
         <section class="main_slider_action">
             <div class="main_container_sl">
                 <div class="main_slider_arrow">
-                    <img src="image/main/slider_promotion/arrowL.svg" alt="arrow">
-                    <img src="image/main/slider_promotion/arrowR.svg" alt="arrow">
+                    <button class="prevB"><img src="image/main/slider_promotion/arrowL.svg" alt="arrow"></button>
+                    <button class="nextB"><img src="image/main/slider_promotion/arrowR.svg" alt="arrow"></button>
                 </div>
                 <h2>Специальные предложения</h2>
                 <div class="main_slider_blocks">
-                    <div class="main_slider_blocks_card">
+                    <div id="one" class="main_slider_blocks_card">
                         <h2>акция!</h2>
                         <div>
                             <div>
@@ -442,13 +442,61 @@
                             </div>
                         </div>
                     </div>
-                    <div class="main_slider_blocks_card">
+                    <div id="two" class="main_slider_blocks_card">
                         <h2>акция</h2>
                         <p><span>-10%</span>на 2 единицы</p>
                         <p><span>-15%</span>на 3 единицы</p>
                         <span>подробности в описании*</span>
                     </div>
-                    <div class="main_slider_blocks_card">
+                    <div id="three" class="main_slider_blocks_card">
+                        <h2>акция</h2>
+                        <span>medifeel</span>
+                        <span>-25%</span>
+                    </div>
+                    <div id="one" class="main_slider_blocks_card slider_num4">
+                        <h2>акция!</h2>
+                        <div>
+                            <div>
+                                <h2>-15%</h2>
+                                <span>от 3 препаратов</span>
+                            </div>
+                            <div>
+                                <h2>-20%</h2>
+                                <span>от 5 препаратов</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="two" class="main_slider_blocks_card slider_num5">
+                        <h2>акция</h2>
+                        <p><span>-10%</span>на 2 единицы</p>
+                        <p><span>-15%</span>на 3 единицы</p>
+                        <span>подробности в описании*</span>
+                    </div>
+                    <div id="three" class="main_slider_blocks_card slider_num6">
+                        <h2>акция</h2>
+                        <span>medifeel</span>
+                        <span>-25%</span>
+                    </div>
+                    <div id="one" class="main_slider_blocks_card slider_num7">
+                        <h2>акция!</h2>
+                        <div>
+                            <div>
+                                <h2>-15%</h2>
+                                <span>от 3 препаратов</span>
+                            </div>
+                            <div>
+                                <h2>-20%</h2>
+                                <span>от 5 препаратов</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="two" class="main_slider_blocks_card slider_num8">
+                        <h2>акция</h2>
+                        <p><span>-10%</span>на 2 единицы</p>
+                        <p><span>-15%</span>на 3 единицы</p>
+                        <span>подробности в описании*</span>
+                    </div>
+                    <div id="three" class="main_slider_blocks_card slider_num9">
                         <h2>акция</h2>
                         <span>medifeel</span>
                         <span>-25%</span>
@@ -524,5 +572,7 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
 </body>
+
 </html>

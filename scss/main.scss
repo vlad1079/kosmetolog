@@ -856,6 +856,7 @@ main.main {
     }
     .main_slider_action {
         padding-bottom: rem(175);
+        overflow: hidden;
         .main_container_sl {
             max-width: rem(1230);
             padding-left: rem(15);
@@ -863,17 +864,25 @@ main.main {
             margin: 0 auto;
             position: relative;
             .main_slider_arrow {
-                & > img:first-of-type {
-                    position: absolute;
-                    left: 0;
-                    top: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+                top: 310px;
+                z-index: 1;
+                & > button:first-of-type {
                     cursor: pointer;
+                    width: 1%;
+                    padding: 0;
+                    border: 1px solid transparent;
+                    background-color: transparent;
                 }
-                & > img:last-of-type {
-                    position: absolute;
-                    right: 0;
-                    top: 40%;
+                & > button:last-of-type {
                     cursor: pointer;
+                    width: 1%;
+                    padding: 0;
+                    border: 1px solid transparent;
+                    background-color: transparent;
                 }
             }
             & > h2 {
@@ -889,8 +898,9 @@ main.main {
                 align-items: center;
                 justify-content: space-between;
                 padding-bottom: rem(75);
+                column-gap: rem(10);
                 & > .main_slider_blocks_card {
-                    width: calc(100% / 3 - 0.9375rem);
+                    // min-width: calc(100% / 3 - 0.9375rem);
                     height: 57vh;
                     background-repeat: no-repeat;
                 }
@@ -898,7 +908,7 @@ main.main {
                     background-image: url("../image/main/slider_promotion/promotionOneA.jpg");
                     padding: 30px 15px 0 15px;
                     color: #062661;
-                    padding: rem(50) rem(15) 0 rem(15);
+                    padding: rem(50) rem(55) 0 rem(15);
                     & > h2 {
                         font-size: rem(50);
                         font-weight: 700;
@@ -947,6 +957,154 @@ main.main {
                     }
                 }
                 .main_slider_blocks_card:nth-of-type(3) {
+                    background-image: url("../image/main/slider_promotion/promotionThreeA.jpg");
+                    text-align: center;
+                    padding: rem(50) rem(20);
+                    & > h2 {
+                        font-size: rem(50);
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        padding-bottom: rem(15);
+                    }
+                    & > span:first-of-type {
+                        display: block;
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        padding-bottom: rem(15);
+                    }
+                    & > span:last-of-type {
+                        display: block;
+                        font-size: rem(35);
+                        font-weight: 800;
+                    }
+                }
+                .main_slider_blocks_card:nth-of-type(4) {
+                    background-image: url("../image/main/slider_promotion/promotionOneA.jpg");
+                    padding: 30px 15px 0 15px;
+                    color: #062661;
+                    padding: rem(50) rem(15) 0 rem(15);
+                    & > h2 {
+                        font-size: rem(50);
+                        font-weight: 700;
+                        text-align: center;
+                        text-transform: uppercase;
+                        padding-bottom: rem(40);
+                    }
+                    & > div {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        & > div {
+                            & > h2 {
+                                font-size: rem(35);
+                                font-weight: 800;
+                                text-align: center;
+                                padding-bottom: rem(3);
+                            }
+                            & > span {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+                .main_slider_blocks_card:nth-of-type(5) {
+                    background-image: url("../image/main/slider_promotion/promotionTwoA.jpg");
+                    padding: rem(50) rem(20);
+                    & > h2 {
+                        font-size: rem(50);
+                        font-weight: 700;
+                        text-align: center;
+                        text-transform: uppercase;
+                        padding-bottom: rem(40);
+                    }
+                    & > p {
+                        font-size: rem(18);
+                        padding-bottom: rem(15);
+                        & > span {
+                            font-size: rem(35);
+                            font-weight: 800;
+                            padding-bottom: rem(3);
+                        }
+                    }
+                    & > span {
+                        font-size: rem(12);
+                    }
+                }
+                .main_slider_blocks_card:nth-of-type(6) {
+                    background-image: url("../image/main/slider_promotion/promotionThreeA.jpg");
+                    text-align: center;
+                    padding: rem(50) rem(20);
+                    & > h2 {
+                        font-size: rem(50);
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        padding-bottom: rem(15);
+                    }
+                    & > span:first-of-type {
+                        display: block;
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        padding-bottom: rem(15);
+                    }
+                    & > span:last-of-type {
+                        display: block;
+                        font-size: rem(35);
+                        font-weight: 800;
+                    }
+                }
+                .main_slider_blocks_card:nth-of-type(7) {
+                    background-image: url("../image/main/slider_promotion/promotionOneA.jpg");
+                    padding: 30px 15px 0 15px;
+                    color: #062661;
+                    padding: rem(50) rem(15) 0 rem(15);
+                    & > h2 {
+                        font-size: rem(50);
+                        font-weight: 700;
+                        text-align: center;
+                        text-transform: uppercase;
+                        padding-bottom: rem(40);
+                    }
+                    & > div {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        & > div {
+                            & > h2 {
+                                font-size: rem(35);
+                                font-weight: 800;
+                                text-align: center;
+                                padding-bottom: rem(3);
+                            }
+                            & > span {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+                .main_slider_blocks_card:nth-of-type(8) {
+                    background-image: url("../image/main/slider_promotion/promotionTwoA.jpg");
+                    padding: rem(50) rem(20);
+                    & > h2 {
+                        font-size: rem(50);
+                        font-weight: 700;
+                        text-align: center;
+                        text-transform: uppercase;
+                        padding-bottom: rem(40);
+                    }
+                    & > p {
+                        font-size: rem(18);
+                        padding-bottom: rem(15);
+                        & > span {
+                            font-size: rem(35);
+                            font-weight: 800;
+                            padding-bottom: rem(3);
+                        }
+                    }
+                    & > span {
+                        font-size: rem(12);
+                    }
+                }
+                .main_slider_blocks_card:nth-of-type(9) {
                     background-image: url("../image/main/slider_promotion/promotionThreeA.jpg");
                     text-align: center;
                     padding: rem(50) rem(20);
