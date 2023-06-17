@@ -16,6 +16,7 @@ const items = document.querySelectorAll('.main_slider_blocks_card');
 const itemsCont = items.length;
 const itemsWidth = container.clientWidth / slidesToShow;
 const movePosition = slidesToScroll * itemsWidth;
+const mainSlider = document.getElementById('main_slider_blocks');
 
 
 console.log(slidesToShow);
@@ -51,3 +52,26 @@ const checkBtns = () => {
 };
 
 checkBtns();
+
+
+let touchstartX = 0;
+let touchendX = 0;
+
+function checkDirection() {
+    if (touchendX < touchstartX)
+    btnPrev.click();
+    if (touchendX > touchstartX)
+    btnNext.click();
+}
+
+
+track.addEventListener('touchstart', (e) => {
+    touchstartX = e.changedTouches[0].screenX;
+});
+
+track.addEventListener('touchend', (e) => {
+    touchendX <= e.changedTouches[0].screenX;
+    checkDirection();
+});
+console.log(touchstartX);
+console.log(touchendX);
