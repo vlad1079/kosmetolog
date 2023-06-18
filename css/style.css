@@ -840,7 +840,8 @@ main.main {
                 column-gap: 0.625rem; }
         main.main .main_slider_action .main_container_sl .main_slider_blocks > .main_slider_blocks_card {
           height: 57vh;
-          background-repeat: no-repeat; }
+          background-repeat: no-repeat;
+          cursor: pointer; }
         main.main .main_slider_action .main_container_sl .main_slider_blocks .main_slider_blocks_card:nth-of-type(1) {
           background-image: url("../image/main/slider_promotion/promotionOneA.jpg");
           padding: 30px 15px 0 15px;

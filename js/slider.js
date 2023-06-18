@@ -44,6 +44,7 @@ btnPrev.addEventListener('click', () => {
 
 const setPosition = () => {
     track.style.transform = `translateX(${position}px)`;
+    track.style.transition = 'transform .5s';
 }
 
 const checkBtns = () => {
@@ -56,22 +57,43 @@ checkBtns();
 
 let touchstartX = 0;
 let touchendX = 0;
+let slideIndex = 0;
 
 function checkDirection() {
-    if (touchendX < touchstartX)
-    btnPrev.click();
+    if (touchendX < touchstartX) {
+        track.style.transform = `translateX(${position}px)`;
+        checkBtns();
+    }
     if (touchendX > touchstartX)
-    btnNext.click();
+    console.log('start2');
 }
 
 
-track.addEventListener('touchstart', (e) => {
-    touchstartX = e.changedTouches[0].screenX;
-});
+// track.addEventListener('touchstart', (e) => {
+//     touchstartX = e.changedTouches[0].screenX;
+//     slideIndex++;
+// });
 
-track.addEventListener('touchend', (e) => {
-    touchendX <= e.changedTouches[0].screenX;
-    checkDirection();
-});
+// track.addEventListener('touchend', (e) => {
+//     touchendX <= e.changedTouches[0].screenX;
+//     slideIndex--;
+//     checkDirection();
+// });
 console.log(touchstartX);
 console.log(touchendX);
+
+track.addEventListener('touchstart', () => {
+    const itemLeft = itemsCont - (Math.abs(position) + slidesToShow * itemsWidth) / itemsWidth;
+    position -= itemLeft >= slidesToScroll ? movePosition : itemLeft * itemsWidth;
+
+    setPosition();
+    checkBtns();
+});
+
+track.addEventListener('touchend', () => {
+    const itemLeft = Math.abs(position) / itemsWidth;
+    position += itemLeft >= slidesToScroll ? movePosition : itemLeft * itemsWidth;
+
+    setPosition();
+    checkBtns();
+});
