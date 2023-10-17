@@ -4118,36 +4118,36 @@ main.main {
           width: calc(100% / 3 - 0.78125rem);
           height: 100vh;
           max-height: 12.25rem; }
-        main.main .main_slider_action .main_container_sl .main_slider_blocks .main_slider_blocks_card:nth-of-type(1) {
+        main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num1, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num4, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num7 {
           background-image: url("../image/main/slider_promotion/promotionOneA.jpg");
           padding: 1.875rem 0.625rem 0 0.625rem; }
-          main.main .main_slider_action .main_container_sl .main_slider_blocks .main_slider_blocks_card:nth-of-type(1) > h2 {
+          main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num1 > h2, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num4 > h2, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num7 > h2 {
             font-size: 1rem;
             padding-bottom: 1.25rem; }
-          main.main .main_slider_action .main_container_sl .main_slider_blocks .main_slider_blocks_card:nth-of-type(1) > div > div > h2 {
+          main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num1 > div > div > h2, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num4 > div > div > h2, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num7 > div > div > h2 {
             font-size: 1rem; }
-          main.main .main_slider_action .main_container_sl .main_slider_blocks .main_slider_blocks_card:nth-of-type(1) > div > div > span {
+          main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num1 > div > div > span, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num4 > div > div > span, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num7 > div > div > span {
             font-size: 0.625rem; }
-        main.main .main_slider_action .main_container_sl .main_slider_blocks .main_slider_blocks_card:nth-of-type(2) {
+        main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num2, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num5, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num8 {
           padding: 0.625rem 0.9375rem; }
-          main.main .main_slider_action .main_container_sl .main_slider_blocks .main_slider_blocks_card:nth-of-type(2) > h2 {
+          main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num2 > h2, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num5 > h2, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num8 > h2 {
             font-size: 1rem;
             padding-bottom: 0.5625rem; }
-          main.main .main_slider_action .main_container_sl .main_slider_blocks .main_slider_blocks_card:nth-of-type(2) > p {
+          main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num2 > p, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num5 > p, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num8 > p {
             font-size: 0.625rem;
             padding-bottom: 0.625rem; }
-            main.main .main_slider_action .main_container_sl .main_slider_blocks .main_slider_blocks_card:nth-of-type(2) > p > span {
+            main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num2 > p > span, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num5 > p > span, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num8 > p > span {
               font-size: 1.25rem;
               padding-right: 0.625rem; }
-          main.main .main_slider_action .main_container_sl .main_slider_blocks .main_slider_blocks_card:nth-of-type(2) > span {
+          main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num2 > span, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num5 > span, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num8 > span {
             font-size: 0.5rem; }
-        main.main .main_slider_action .main_container_sl .main_slider_blocks .main_slider_blocks_card:nth-of-type(3) {
+        main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num3, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num6, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num9 {
           padding: 0.625rem 0.9375rem; }
-          main.main .main_slider_action .main_container_sl .main_slider_blocks .main_slider_blocks_card:nth-of-type(3) > h2 {
+          main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num3 > h2, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num6 > h2, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num9 > h2 {
             font-size: 1rem; }
-          main.main .main_slider_action .main_container_sl .main_slider_blocks .main_slider_blocks_card:nth-of-type(3) > span:first-of-type {
+          main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num3 > span:first-of-type, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num6 > span:first-of-type, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num9 > span:first-of-type {
             font-size: 0.875rem; }
-          main.main .main_slider_action .main_container_sl .main_slider_blocks .main_slider_blocks_card:nth-of-type(3) > span:last-of-type {
+          main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num3 > span:last-of-type, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num6 > span:last-of-type, main.main .main_slider_action .main_container_sl .main_slider_blocks .slider_num9 > span:last-of-type {
             font-size: 1.25rem; }
       main.main .main_slider_action .main_container_sl .main_slider_dots {
         max-width: 2.9375rem; }

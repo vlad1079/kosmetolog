@@ -1,12 +1,12 @@
 let position = 0;
 let slidesToShow;
 
-if (window.outerWidth > 321) {
+if (window.outerWidth > 480) {
     slidesToShow = 3.3236;
-} else {
+} else if (window.outerWidth > 321 && window.outerWidth < 479) {
     slidesToShow = 2;
 }
-
+console.log(slidesToShow);
 const slidesToScroll = 1;
 const container = document.querySelector('.main_slider_action');
 const track = document.querySelector('.main_slider_blocks');
@@ -85,6 +85,7 @@ console.log(touchendX);
 track.addEventListener('touchstart', () => {
     const itemLeft = itemsCont - (Math.abs(position) + slidesToShow * itemsWidth) / itemsWidth;
     position -= itemLeft >= slidesToScroll ? movePosition : itemLeft * itemsWidth;
+    slideIndex--;
 
     setPosition();
     checkBtns();
@@ -93,7 +94,9 @@ track.addEventListener('touchstart', () => {
 track.addEventListener('touchend', () => {
     const itemLeft = Math.abs(position) / itemsWidth;
     position += itemLeft >= slidesToScroll ? movePosition : itemLeft * itemsWidth;
+    slideIndex++;
 
     setPosition();
     checkBtns();
 });
+console.log(slideIndex);
